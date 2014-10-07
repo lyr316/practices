@@ -5,24 +5,24 @@
  *      Author: Yanren
  */
 
-class LinkedList
+class ListNode
 {
 public:
 	int val;
-	LinkedList* next;
+	ListNode* next;
 
-	LinkedList(int x)
+	ListNode(int x)
 	{
 		val = x;
 		next = NULL;
 	}
 };
 
-LinkedList* reverse(LinkedList* head)
+ListNode* reverse(ListNode* head)
 {
-	LinkedList* pre = head;
-	LinkedList* cur = head->next;
-	LinkedList* next;
+	ListNode* pre = head;
+	ListNode* cur = head->next;
+	ListNode* next;
 
 	while (cur != NULL)
 	{
