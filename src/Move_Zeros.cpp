@@ -1,7 +1,7 @@
 /*
  * Move_Zeros.cpp
  *
- *  Created on: 2014Äê10ÔÂ4ÈÕ
+ *  Created on: 2014ï¿½ï¿½10ï¿½ï¿½4ï¿½ï¿½
  *      Author: Yanren
  */
 
@@ -10,6 +10,7 @@
 //original order . For example,
 //A[0,1,3,0,0,0,5,0] -> A[0,0,0,0,0,1,3,5]
 
+#include <algorithm>
 
 void moveZeros(int* a, int size)
 {
